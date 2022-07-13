@@ -176,7 +176,7 @@ footer{
 .pageAppeal{
     display: flex;
     flex-direction: column;
-    height: 180vh;
+    height: 130vh;
     color: #efefef;
     justify-content: center;
 
