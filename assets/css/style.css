@@ -1,5 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&family=Tangerine:wght@400;700&display=swap');
+
+@font-face {
+    font-family: Santio ;
+    src:url(../fonts/Santio\ Bold.ttf);
+}
+
+/* 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Santio'
+
+    #e7bc0e 
+    #efefef
+    #6bc1a3
+    #cb91b6
+    #7eb8e1
+    #000 
+    #fff
+
+*/
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url('../img/cleo-topper.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 100px;
+    height: 4vh;
+    gap: 40px;
+}
+
+header>p{
+    font-size: 30px;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    text-decoration: underline #e7bc0e;;
+
+}
+
+.pageSize{
+    height: 100vh;
+    margin: 0 150px;
+}
+
+.imgSea{
+    position: relative;
+    height: 90vh;
+    background-color: rgb(235,235,235);
+}
+
+h1{
+    font-family: 'Santio';
+    font-size: 100px;
+    color: white;
+    width: 70%;
+}
+
+.pageOne{
+    width: 40%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pageOne>p{
+    color: #e7bc0e;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+}
+
+.info>p{
+    width: 70vw;
+    font-size: 50px;
+    font-family: 'Santio';
+    line-height: 60px;
+    color: #6bc1a3;
+}
+
+.hint{
+    color: #efefef;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.pagePngs{
+    width: 20%;
+    padding-bottom: 100px;
+}
+
+.PageFacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+}
+
+.workers>p{
+    font-size: 55px;
+    font-family: 'Santio';
+    color:#e7bc0e;
+}
+
+.workers>h2{
+    font-family: 'Santio';
+    font-size: 200px;
+    color: white;
+    width: 70%;
+    color:#e7bc0e;
+}
+
+.paid>p{
+    font-size: 55px;
+    font-family: 'Santio';
+    color:#cb91b6;
+}
+
+.paid>h2{
+    font-family: 'Santio';
+    font-size: 200px;
+    color: white;
+    width: 70%;
+    color:#cb91b6;
+}
+
+.health>p{
+    font-size: 55px;
+    font-family: 'Santio';
+    color:#6bc1a3;
+}
+
+.health>h2{
+    font-family: 'Santio';
+    font-size: 200px;
+    color: white;
+    width: 70%;
+    color:#6bc1a3;
+}
+
+.domestic>p{
+    color: #7eb8e1;
+    width: 70vw;
+    font-size: 50px;
+    font-family: 'Santio';
+    line-height: 60px;
+}
+
+#pic1{
+position:absolute;
+width:100vw;
+}
+
+#pic2{
+position:absolute;
+width:100vw;
+}
+
+footer{
+    background-color: #000;
+}
+
+.pageAppeal{
+    display: flex;
+    flex-direction: column;
+    height: 180vh;
+    color: #efefef;
+    justify-content: center;
+
+}
+
+.pageAppeal>h3{
+    font-family: 'Santio';
+    font-size: 100px;
+    margin-left: 150px;
+    width: 700px;
+    margin-bottom: 60px;
+}
+
+.btnDonate{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 150px;
+    font-size: 25px;
+    padding: 10px;
+    border: 2px solid white;
+    width: 100px;
+    border-radius: 2px;
+    margin-bottom: 200px;
+}
+
+.btnDonate:hover{
+    box-shadow: 5px 5px 0px -1px rgb(255, 255, 255);
+}
+
+.foot{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #efefef;
+}
+.foot>a{
+    color: #6bc1a3;
+    text-decoration: none;
+}
+
+.foot>a:hover{
+    text-decoration: underline;
 }
