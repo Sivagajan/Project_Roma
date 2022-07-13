@@ -59,7 +59,7 @@ header>p{
 
 .imgSea{
     position: relative;
-    height: 90vh;
+    height: 100vh;
     background-color: rgb(235,235,235);
 }
 
@@ -174,11 +174,13 @@ footer{
 }
 
 .pageAppeal{
+    padding-top: 300px;
     display: flex;
     flex-direction: column;
-    height: 130vh;
-    color: #efefef;
     justify-content: center;
+    height: 150vh;
+    color: #efefef;
+
 
 }
 
